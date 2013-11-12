@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Pastebin</title>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+      <div class="my-container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Pastebin</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="https://github.com/chengluyu">About</a></li>
+        </ul>
+        <form method="post" action="/go" class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" name="paste_id" class="form-control" placeholder="Paste ID">
+          </div>
+          <button type="submit" class="btn btn-default">Go!</button>
+        </form>
+      </div>
+    </nav>
+    <div class="my-container panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title">Error</h3>
+      </div>
+      <div class="panel-body">
+        <strong>{{=it.error}}</strong>
+      </div>
+    </div>
+  </body>
+</html>
