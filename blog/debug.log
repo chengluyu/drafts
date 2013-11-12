@@ -1,0 +1,41 @@
+date: 2013-11-05 17:30:17.875
+argv: node /usr/local/bin/hexo server
+os: Linux 3.11.0-12-generic linux x64
+version:
+  hexo: 2.3.0
+  http_parser: 1.0
+  node: 0.10.15
+  v8: 3.14.5.8
+  ares: 1.10.0
+  uv: 0.10.13
+  zlib: 1.2.8
+  modules: 11
+  openssl: 1.0.1e
+---
+
+[debug] 17:14:39.244 Configuration file load successfully
+[debug] 17:14:39.246 Version info checked successfully
+[debug] 17:14:39.246 Loading the database...
+[debug] 17:14:39.509 Theme layout loaded
+[debug] 17:14:39.509 Start watching theme layout...
+[debug] 17:14:39.546 Theme source loaded
+[debug] 17:14:39.549 Theme configuration loaded
+[debug] 17:14:39.550 Start watching theme source...
+[debug] 17:14:39.563 Theme i18n loaded
+[debug] 17:14:39.574 Processed: _posts/hello-world.md
+[debug] 17:14:39.584 Cache saved
+[info] 17:14:39.587 Hexo is running at localhost:3000/. Press Ctrl+C to stop.
+[debug] 17:14:40.835 Render index: 
+[create] 17:30:17.769 Source: _posts/Title.md
+[error] 17:30:17.873 { rawMessage: 'Unable to parse.',
+  parsedLine: 6,
+  snippet: '第一篇日志用于测试Hexo博客的各种效果。',
+  parsedFile: null,
+  message: 'Unable to parse.',
+  domain: 
+   { domain: null,
+     _events: { error: [Function] },
+     _maxListeners: 10,
+     members: [],
+     _disposed: true },
+  domainThrown: true }
